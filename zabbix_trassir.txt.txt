@@ -1,0 +1,5 @@
+ADD TO AGENT CONFIG:
+
+### Trassir
+UserParameter=trassir.lld,powershell C:\zabbix\4trassir\zabbix_trassir_lld.ps1
+UserParameter=trassir.check[*],C:\zabbix\4trassir\zabbix_trassir_check.cmd $1 $2
